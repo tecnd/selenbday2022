@@ -2,4 +2,6 @@
   import "../app.postcss";
 </script>
 
-<slot />
+<div class="h-screen bg-[url('/banner.jpg')]">
+  <slot />
+</div>
