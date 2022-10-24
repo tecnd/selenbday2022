@@ -3,7 +3,9 @@
 </script>
 
 <div class="h-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center">
-  <div class="absolute top-0 left-0 h-screen w-screen bg-gray-900 opacity-50" />
+  <div
+    class="pointer-events-none absolute top-0 left-0 h-screen w-screen bg-gray-900 opacity-50"
+  />
   <main
     class="container flex min-h-screen flex-col items-center justify-center md:max-w-screen-md"
   >
