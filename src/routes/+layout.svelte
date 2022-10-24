@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div
-  class="h-screen overflow-x-hidden border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
+  class="relative flex min-h-screen overflow-x-hidden border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
 >
   <LoadingAnimation />
   <slot />
