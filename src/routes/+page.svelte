@@ -22,8 +22,13 @@
     </p>
     <div class="flex flex-row flex-wrap justify-center">
       <a href="/about">
-        <Hex />
+        <Hex>
+          <i class="fa-solid fa-trophy fa-2x mb-3" />
+          <p class="uppercase">about</p>
+        </Hex>
       </a>
+      <Hex />
+      <Hex />
       <Hex />
     </div>
   </main>

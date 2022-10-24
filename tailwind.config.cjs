@@ -28,6 +28,18 @@ const config = {
         "3/5": "60%",
         "4/5": "80%",
       },
+      width: {
+        "hex-inner": "156px",
+        "hex-outer": "173px",
+      },
+      height: {
+        "hex-inner": "90.07px",
+        "hex-outer": "99.88px",
+      },
+      rotate: {
+        60: "60deg",
+        120: "120deg",
+      },
     },
     container: {
       center: true,
