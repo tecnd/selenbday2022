@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="h-screen border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
+  class="h-screen overflow-hidden border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
 >
   <LoadingAnimation />
   <slot />
