@@ -1,12 +1,9 @@
 <script>
   import "../app.postcss";
+  import "@fortawesome/fontawesome-free/css/fontawesome.css";
+  import "@fortawesome/fontawesome-free/css/brands.css";
+  import "@fortawesome/fontawesome-free/css/solid.css";
 </script>
-
-<svelte:head>
-  <script
-    src="https://kit.fontawesome.com/cbe5f61c01.js"
-    crossorigin="anonymous"></script>
-</svelte:head>
 
 <div
   class="relative flex min-h-screen overflow-x-hidden border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
