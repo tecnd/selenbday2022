@@ -1,6 +1,5 @@
 <script>
   import "../app.postcss";
-  import LoadingAnimation from "$lib/loadingAnimation.svelte";
 </script>
 
 <svelte:head>
@@ -12,6 +11,5 @@
 <div
   class="relative flex min-h-screen overflow-x-hidden border-t-4 border-t-selen bg-[url('/banner.jpg')] bg-cover bg-center text-white"
 >
-  <LoadingAnimation />
   <slot />
 </div>
