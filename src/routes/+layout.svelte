@@ -1,6 +1,6 @@
 <script>
   import "../app.postcss";
-  import LoadingAnimation from "../components/loadingAnimation.svelte";
+  import LoadingAnimation from "$lib/loadingAnimation.svelte";
 </script>
 
 <svelte:head>
