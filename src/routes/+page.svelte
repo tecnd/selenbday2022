@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { fade } from "svelte/transition";
   import Hex from "$lib/hex.svelte";
   import LoadingAnimation from "$lib/loadingAnimation.svelte";
   let innerWidth: number;
@@ -9,8 +10,34 @@
 
 {#if playAnimation}
   <LoadingAnimation />
+{:else}
+  <!--Intro-->
+  <div
+    class="fixed top-0 left-0 z-50 flex h-screen w-screen flex-col items-center justify-center bg-gray-900/50 px-2"
+    transition:fade
+  >
+    <iframe
+      class="mb-4 aspect-video w-full rounded sm:w-3/4 md:w-2/3 lg:w-4/5"
+      src="https://www.youtube.com/embed/jcAPuo8b5N0"
+      title="YouTube video player"
+      allow="autoplay; picture-in-picture; fullscreen"
+    />
+    <div class="flex gap-4">
+      <button class="rounded bg-gray-500 px-2 text-xl hover:bg-selen"
+        >Download Animation</button
+      >
+      <button class="mr-10 rounded bg-gray-500 px-2 text-xl hover:bg-selen"
+        >Download Music</button
+      >
+      <button
+        class="rounded bg-gray-500 px-2 text-xl hover:bg-selen"
+        on:click={() => {
+          playAnimation = true;
+        }}>Skip Intro</button
+      >
+    </div>
+  </div>
 {/if}
-<!--Intro-->
 <!--Backgrounds-->
 <div
   class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
@@ -36,11 +63,6 @@
   <p class="z-10 font-serif">
     A website designed by Selen Tatsuki’s dragoons celebrating her birthday!
   </p>
-  <button
-    on:click={() => {
-      playAnimation = true;
-    }}>Click me</button
-  >
   {#if innerWidth < 768}
     <!--Hex layout for mobile-->
     <div class="flex flex-col gap-12">
