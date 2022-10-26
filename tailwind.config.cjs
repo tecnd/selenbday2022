@@ -4,7 +4,7 @@ const config = {
   theme: {
     extend: {
       colors: {
-        selen: "#7E4EAC",
+        selen: "#C4B697",
       },
       keyframes: {
         toZero: {

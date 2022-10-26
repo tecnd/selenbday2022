@@ -42,9 +42,9 @@
 <div
   class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
 />
-<div
-  class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-gray-900 opacity-50"
-/>
+<!-- <div
+  class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-gray-900/50"
+/> -->
 <!--Main Content-->
 <main
   class="container flex grow flex-col items-center justify-center md:max-w-screen-md"
