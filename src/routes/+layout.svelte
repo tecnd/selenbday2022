@@ -10,6 +10,6 @@
 >
   <slot />
   <div
-    class="fixed bottom-1 right-1 h-32 w-32 bg-[url('/obsydia.webp')] bg-contain"
+    class="fixed bottom-1 right-1 aspect-square w-20 bg-[url('/obsydia.webp')] bg-contain md:w-32"
   />
 </div>
