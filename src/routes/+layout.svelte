@@ -9,7 +9,7 @@
   class="relative flex min-h-screen overflow-x-hidden border-t-4 border-t-selen text-white"
 >
   <div
-    class="fixed h-screen w-full bg-[url('/banner.png')] bg-cover bg-center"
+    class="fixed -z-10 h-screen w-full bg-[url('/banner.png')] bg-cover bg-center"
   />
   <slot />
   <div
