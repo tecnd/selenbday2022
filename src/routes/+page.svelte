@@ -50,17 +50,19 @@
   class="container flex grow flex-col items-center justify-center md:max-w-screen-md"
 >
   <!--Title Text-->
-  <div class="relative z-0 my-10">
+  <div class="relative z-0 my-14">
     <h1 class="z-0 text-center text-4xl font-black uppercase md:text-7xl">
       Happy Birthday <span class="text-selen">Selen</span>
     </h1>
     <h2
       class="absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 text-center text-7xl font-black uppercase tracking-widest text-black opacity-30 md:text-9xl"
     >
-      Selen Tatsuki
+      Sele<span class="tracking-normal">n</span><br />Tatsuk<span
+        class="tracking-normal">i</span
+      >
     </h2>
   </div>
-  <p class="z-10 font-serif">
+  <p class="z-10 my-6 font-serif">
     A website designed by Selen Tatsuki’s dragoons celebrating her birthday!
   </p>
   {#if innerWidth < 768}
