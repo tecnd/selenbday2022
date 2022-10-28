@@ -40,7 +40,7 @@
 {/if}
 <!--Backgrounds-->
 <div
-  class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
+  class="pointer-events-none absolute top-0 left-0 -z-10 h-full w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
 />
 <!-- <div
   class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-gray-900/50"
@@ -62,7 +62,7 @@
       >
     </h2>
   </div>
-  <p class="z-10 my-6 font-serif">
+  <p class="z-10 my-6">
     A website designed by Selen Tatsuki’s dragoons celebrating her birthday!
   </p>
   {#if innerWidth < 768}
@@ -78,10 +78,12 @@
         <i class="fa-solid fa-quote-left fa-2x mb-3" />
         <p class="text-center uppercase">Selen's Quotes</p>
       </Hex>
-      <Hex>
-        <i class="fa-solid fa-cake-candles fa-2x mb-3" />
-        <p class="text-center uppercase">Birthday Cakes</p>
-      </Hex>
+      <a href="/cakes">
+        <Hex>
+          <i class="fa-solid fa-cake-candles fa-2x mb-3" />
+          <p class="text-center uppercase">Birthday Cakes</p>
+        </Hex>
+      </a>
       <Hex>
         <i class="fa-solid fa-dragon fa-2x mb-3" />
         <p class="text-center uppercase">Dragoon Generator</p>
@@ -112,10 +114,12 @@
         <i class="fa-solid fa-quote-left fa-2x mb-3" />
         <p class="text-center uppercase">Selen's Quotes</p>
       </Hex>
-      <Hex>
-        <i class="fa-solid fa-cake-candles fa-2x mb-3" />
-        <p class="text-center uppercase">Birthday Cakes</p>
-      </Hex>
+      <a href="/cakes">
+        <Hex>
+          <i class="fa-solid fa-cake-candles fa-2x mb-3" />
+          <p class="text-center uppercase">Birthday Cakes</p>
+        </Hex>
+      </a>
       <Hex>
         <i class="fa-solid fa-dragon fa-2x mb-3" />
         <p class="text-center uppercase">Dragoon Generator</p>
@@ -136,4 +140,10 @@
       </Hex>
     </div>
   {/if}
+  <p class="mt-6 text-center text-sm">
+    Selen Tatsuki artwork credit: (left) <a
+      href="https://twitter.com/kamamesigogo123">@kamamesigogo123</a
+    >
+    | (right) <a href="https://twitter.com/fujiwarano_echi">@fujiwarano_echi</a>
+  </p>
 </main>

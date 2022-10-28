@@ -6,7 +6,7 @@
 </script>
 
 <div
-  class="relative flex min-h-screen overflow-x-hidden border-t-4 border-t-selen text-white"
+  class="relative flex flex-col min-h-screen overflow-x-hidden border-t-4 border-t-selen text-white"
 >
   <div
     class="fixed -z-10 h-screen w-full bg-[url('/banner.png')] bg-cover bg-center"
