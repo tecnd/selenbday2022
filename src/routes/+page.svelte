@@ -96,10 +96,12 @@
         <i class="fa-solid fa-music fa-2x mb-3" />
         <p class="text-center uppercase">Music</p>
       </Hex>
-      <Hex>
-        <i class="fa-brands fa-youtube fa-2x mb-3" />
-        <p class="text-center uppercase">Socials</p>
-      </Hex>
+      <a href="/socials">
+        <Hex>
+          <i class="fa-brands fa-youtube fa-2x mb-3" />
+          <p class="text-center uppercase">Socials</p>
+        </Hex>
+      </a>
       <Hex>
         <i class="fa-brands fa-discord fa-2x mb-3" />
         <p class="text-center uppercase">DPS and Credits</p>
@@ -134,20 +136,33 @@
         <i class="fa-solid fa-music fa-2x mb-3" />
         <p class="text-center uppercase">Music</p>
       </Hex>
-      <Hex>
-        <i class="fa-brands fa-youtube fa-2x mb-3" />
-        <p class="text-center uppercase">Socials</p>
-      </Hex>
+      <a href="/socials">
+        <Hex>
+          <i class="fa-brands fa-youtube fa-2x mb-3" />
+          <p class="text-center uppercase">Socials</p>
+        </Hex>
+      </a>
       <Hex>
         <i class="fa-brands fa-discord fa-2x mb-3" />
         <p class="text-center uppercase">DPS and Credits</p>
       </Hex>
     </div>
   {/if}
-  <p class="mt-6 text-center text-sm">
+  <div class="grow" />
+  <p class="credits my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
-      href="https://twitter.com/kamamesigogo123">@kamamesigogo123</a
+      href="https://twitter.com/kamamesigogo123"
+      class="hover:text-selen">@kamamesigogo123</a
     >
-    | (right) <a href="https://twitter.com/fujiwarano_echi">@fujiwarano_echi</a>
+    | (right)
+    <a href="https://twitter.com/fujiwarano_echi" class="hover:text-selen"
+      >@fujiwarano_echi</a
+    >
   </p>
 </main>
+
+<style>
+  .credits {
+    text-shadow: 0 0 4px black;
+  }
+</style>

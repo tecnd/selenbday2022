@@ -13,6 +13,6 @@
   />
   <slot />
   <div
-    class="fixed bottom-1 right-1 aspect-square w-20 bg-[url('/obsydia.webp')] bg-contain md:w-32"
+    class="pointer-events-none fixed bottom-1 right-1 aspect-square w-20 bg-[url('/obsydia.webp')] bg-contain md:w-32"
   />
 </div>
