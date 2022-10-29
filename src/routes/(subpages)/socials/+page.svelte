@@ -2,8 +2,8 @@
   class="pointer-events-none absolute top-0 left-0 -z-10 h-full w-screen bg-[url('/socials-bg.png')] bg-cover bg-center"
 />
 <main class="container flex flex-col items-center justify-center">
-  <div class="relative z-0 my-14">
-    <h1 class="z-0 text-center text-4xl font-black uppercase md:text-7xl">
+  <div class="relative z-0 mt-14 mb-8">
+    <h1 class="z-0 text-center text-4xl font-black uppercase md:text-6xl">
       Selen’s <span class="text-selen">Socials</span>
     </h1>
     <h2

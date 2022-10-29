@@ -54,7 +54,7 @@
   class="container flex grow flex-col items-center justify-center md:max-w-screen-md"
 >
   <!--Title Text-->
-  <div class="relative z-0 my-14">
+  <div class="relative z-0 mb-14 mt-28">
     <h1 class="z-0 text-center text-4xl font-black uppercase md:text-7xl">
       Happy Birthday <span class="text-selen">Selen</span>
     </h1>
