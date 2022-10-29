@@ -2,8 +2,12 @@
   import { fade } from "svelte/transition";
   import Hex from "$lib/hex.svelte";
   import LoadingAnimation from "$lib/loadingAnimation.svelte";
+  import { afterNavigate } from "$app/navigation";
   let innerWidth: number;
-  let playAnimation = false;
+  let playAnimation: boolean;
+  afterNavigate(({ from }) => {
+    playAnimation = from !== null;
+  });
 </script>
 
 <svelte:window bind:innerWidth />
