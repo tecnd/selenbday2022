@@ -92,10 +92,12 @@
         <i class="fa-solid fa-dragon fa-2x mb-3" />
         <p class="text-center uppercase">Dragoon Generator</p>
       </Hex>
-      <Hex>
-        <i class="fa-solid fa-music fa-2x mb-3" />
-        <p class="text-center uppercase">Music</p>
-      </Hex>
+      <a href="/music">
+        <Hex>
+          <i class="fa-solid fa-music fa-2x mb-3" />
+          <p class="text-center uppercase">Music</p>
+        </Hex>
+      </a>
       <a href="/socials">
         <Hex>
           <i class="fa-brands fa-youtube fa-2x mb-3" />
@@ -132,10 +134,12 @@
       </Hex>
     </div>
     <div class="-mt-[51.94px] flex flex-row flex-wrap justify-center">
-      <Hex>
-        <i class="fa-solid fa-music fa-2x mb-3" />
-        <p class="text-center uppercase">Music</p>
-      </Hex>
+      <a href="/music">
+        <Hex>
+          <i class="fa-solid fa-music fa-2x mb-3" />
+          <p class="text-center uppercase">Music</p>
+        </Hex>
+      </a>
       <a href="/socials">
         <Hex>
           <i class="fa-brands fa-youtube fa-2x mb-3" />
