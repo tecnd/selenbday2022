@@ -24,12 +24,12 @@
   };
   const Aefen: Artist = {
     name: "Aefen",
-    image: "/artists/aefen.png",
+    image: "/artists/aefen.jpg",
     link: "https://twitter.com/OfficialAefen/",
   };
   const Stick: Artist = {
     name: "StickTheFigure",
-    image: "https://via.placeholder.com/64.png",
+    image: "/artists/stick.jpg",
     link: "https://twitter.com/elicoutch/",
   };
 
@@ -43,7 +43,6 @@
       title: "Blissful nights",
       artist: Stick,
       url: "https://www.youtube.com/embed/cUlIOHWpAtE",
-      new: true,
     },
     {
       title: "Relive",
