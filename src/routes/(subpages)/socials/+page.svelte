@@ -14,7 +14,7 @@
       Social<span class="tracking-normal">s</span>
     </h2>
   </div>
-  <div class="flex w-full flex-col sm:w-3/4 md:w-2/3 lg:w-4/5">
+  <div class="z-10 flex w-full flex-col sm:w-3/4 md:w-2/3 lg:w-4/5">
     <div class="mb-2 flex flex-col items-end justify-end sm:flex-row">
       <a
         href="https://twitter.com/selen_tatsuki"
