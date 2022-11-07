@@ -40,9 +40,16 @@ const config = {
       minHeight: {
         "border-screen": "calc(100vh - 4px)",
       },
+      borderWidth: {
+        3: "3px",
+        6: "6px",
+      },
       rotate: {
         60: "60deg",
         120: "120deg",
+      },
+      skew: {
+        45: "45deg",
       },
     },
     container: {
