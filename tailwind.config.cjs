@@ -35,6 +35,10 @@ const config = {
       height: {
         "hex-inner": "90.07px",
         "hex-outer": "99.88px",
+        "border-screen": "calc(100vh - 4px)",
+      },
+      minHeight: {
+        "border-screen": "calc(100vh - 4px)",
       },
       rotate: {
         60: "60deg",
