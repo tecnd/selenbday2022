@@ -8,11 +8,12 @@
     title: string;
     artist: Artist;
     url: string;
+    new?: boolean;
   }
 
   // Artists
   const Tachibana: Artist = {
-    name: "Tachibana",
+    name: "Tachibana Music",
     image: "/artists/tachibana.jpg",
     link: "https://www.youtube.com/c/TachibanaMusic/",
   };
@@ -28,7 +29,7 @@
   };
   const Stick: Artist = {
     name: "StickTheFigure",
-    image: "https://via.placeholder.com/200.png",
+    image: "https://via.placeholder.com/64.png",
     link: "https://twitter.com/elicoutch/",
   };
 
@@ -42,6 +43,7 @@
       title: "Blissful nights",
       artist: Stick,
       url: "https://www.youtube.com/embed/cUlIOHWpAtE",
+      new: true,
     },
     {
       title: "Relive",
@@ -112,46 +114,64 @@
     A collection of the dragoon community’s music pieces for Selen Tatsuki!
   </p>
   <!-- Title bar -->
-  <div class="mx-3 mb-2 flex justify-center">
-    <div
-      class="skew-x-45 border-y-2 border-x-3 bg-black/50 p-1 md:border-y-4 md:border-x-6 md:p-2"
-    />
-    <div
-      class="mx-1 grow skew-x-45 border-y-2 border-x-3 bg-black/50 px-5 py-1 md:mx-2 md:border-y-4 md:border-x-6 md:px-6"
+  <div class="mb-2 flex justify-center rounded bg-black/50 pr-2">
+    <a href={currentMusic.artist.link}
+      ><img
+        src={currentMusic.artist.image}
+        alt="Artist"
+        class="aspect-square w-16 rounded"
+      /></a
     >
-      <h2 class="-skew-x-45 text-center text-xl md:text-4xl">
+    <div class="mx-4 flex flex-col justify-around md:mx-8">
+      <h2 class="text-center text-xl md:text-4xl">
         {currentMusic.title}
       </h2>
+      <a href={currentMusic.artist.link} class="hover:text-selen"
+        >{currentMusic.artist.name}</a
+      >
     </div>
-    <div
-      class="skew-x-45 border-y-2 border-x-3 bg-black/50 p-1 md:border-y-4 md:border-x-6 md:p-2"
-    />
   </div>
-  <div class="z-10 flex w-full flex-col sm:w-3/4 md:w-2/3 lg:w-4/5">
-    <iframe
-      class="aspect-video w-full rounded-md border-2 border-white"
-      src={currentMusic.url}
-      title="YouTube video player"
-      allow="autoplay; picture-in-picture fullscreen"
-    />
-  </div>
-  <div class="flex w-max flex-col items-center">
-    {#each MusicList as music}
-      <label class="mt-1 w-full border-2">
-        <input
-          type="radio"
-          class="peer hidden appearance-none"
-          name="currentMusic"
-          bind:group={currentMusic}
-          value={music}
-        />
-        <div
-          class="bg-black/50 px-2 text-center hover:bg-white hover:text-black peer-checked:bg-white peer-checked:text-black"
-        >
-          {music.title}
+  <div
+    class="flex w-full flex-col items-center justify-center md:flex-row-reverse"
+  >
+    <!-- Video player -->
+    <div class="z-10 flex w-full max-w-screen-md flex-col">
+      <iframe
+        class="aspect-video w-full rounded-md border-2 border-white"
+        src={currentMusic.url}
+        title="YouTube video player"
+        allow="autoplay; picture-in-picture fullscreen"
+      />
+    </div>
+    <!-- Track select -->
+    <div class="flex flex-col items-center md:mr-4">
+      <div class="my-2 flex justify-center">
+        <div class="skew-x-45 border bg-black/50 p-1" />
+        <div class="mx-1 skew-x-45 border bg-black/50 px-5">
+          <p class="-skew-x-45 text-center">Track Select</p>
         </div>
-      </label>
-    {/each}
+        <div class="skew-x-45 border bg-black/50 p-1" />
+      </div>
+      {#each MusicList as music}
+        <label class="mb-1 w-full border-2">
+          <input
+            type="radio"
+            class="peer hidden appearance-none"
+            name="currentMusic"
+            bind:group={currentMusic}
+            value={music}
+          />
+          <div
+            class="bg-black/50 px-2 text-center hover:bg-white hover:text-black peer-checked:bg-white peer-checked:text-black"
+          >
+            {#if music.new === true}
+              <em>(NEW) </em>
+            {/if}
+            {music.title}
+          </div>
+        </label>
+      {/each}
+    </div>
   </div>
   <div class="grow" />
   <p class="my-4 text-center text-sm">
