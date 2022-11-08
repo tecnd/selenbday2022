@@ -104,10 +104,12 @@
           <p class="text-center uppercase">Socials</p>
         </Hex>
       </a>
-      <Hex>
-        <i class="fa-brands fa-discord fa-2x mb-3" />
-        <p class="text-center uppercase">DPS and Credits</p>
-      </Hex>
+      <a href="/credits">
+        <Hex>
+          <i class="fa-brands fa-discord fa-2x mb-3" />
+          <p class="text-center uppercase">DPS and Credits</p>
+        </Hex>
+      </a>
     </div>
   {:else}
     <!--Hex layout for desktop-->
@@ -146,10 +148,12 @@
           <p class="text-center uppercase">Socials</p>
         </Hex>
       </a>
-      <Hex>
-        <i class="fa-brands fa-discord fa-2x mb-3" />
-        <p class="text-center uppercase">DPS and Credits</p>
-      </Hex>
+      <a href="/credits">
+        <Hex>
+          <i class="fa-brands fa-discord fa-2x mb-3" />
+          <p class="text-center uppercase">DPS and Credits</p>
+        </Hex>
+      </a>
     </div>
   {/if}
   <div class="grow" />

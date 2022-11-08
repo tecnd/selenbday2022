@@ -5,6 +5,7 @@ const config = {
     extend: {
       colors: {
         selen: "#DFBD69",
+        discord: "#5865F2",
       },
       keyframes: {
         toZero: {
