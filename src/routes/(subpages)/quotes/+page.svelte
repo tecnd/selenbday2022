@@ -100,7 +100,7 @@
 </script>
 
 <div
-  class="pointer-events-none absolute top-0 left-0 -z-10 h-full w-screen bg-[url('/quotes-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/quotes-bg.png')] bg-cover bg-center"
 />
 <main
   class="container flex min-h-border-screen max-w-screen-xl flex-col items-center justify-center"

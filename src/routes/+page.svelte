@@ -44,11 +44,8 @@
 {/if}
 <!--Backgrounds-->
 <div
-  class="pointer-events-none absolute top-0 left-0 -z-10 h-full w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
 />
-<!-- <div
-  class="pointer-events-none absolute top-0 left-0 h-full w-screen bg-gray-900/50"
-/> -->
 <!--Main Content-->
 <main
   class="container flex max-w-screen-md grow flex-col items-center justify-center"
