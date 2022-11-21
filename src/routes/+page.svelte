@@ -78,10 +78,12 @@
           <p class="uppercase">about</p>
         </Hex>
       </a>
-      <Hex>
-        <i class="fa-solid fa-quote-left fa-2x mb-3" />
-        <p class="text-center uppercase">Selen's Quotes</p>
-      </Hex>
+      <a href="/quotes">
+        <Hex>
+          <i class="fa-solid fa-quote-left fa-2x mb-3" />
+          <p class="text-center uppercase">Selen’s Quotes</p>
+        </Hex>
+      </a>
       <a href="/cakes">
         <Hex>
           <i class="fa-solid fa-cake-candles fa-2x mb-3" />
@@ -120,10 +122,12 @@
           <p class="text-center uppercase">About</p>
         </Hex>
       </a>
-      <Hex>
-        <i class="fa-solid fa-quote-left fa-2x mb-3" />
-        <p class="text-center uppercase">Selen's Quotes</p>
-      </Hex>
+      <a href="/quotes">
+        <Hex>
+          <i class="fa-solid fa-quote-left fa-2x mb-3" />
+          <p class="text-center uppercase">Selen’s Quotes</p>
+        </Hex>
+      </a>
       <a href="/cakes">
         <Hex>
           <i class="fa-solid fa-cake-candles fa-2x mb-3" />
