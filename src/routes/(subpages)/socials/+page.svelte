@@ -18,12 +18,12 @@
     <div class="mb-2 flex flex-col items-end justify-end sm:flex-row">
       <a
         href="https://twitter.com/selen_tatsuki"
-        class="mr-2 hover:text-selen sm:mr-4"
+        class="text-shadow mr-2 hover:text-selen sm:mr-4"
         ><i class="fa-brands fa-twitter" /> @Selen_Tatsuki</a
       >
       <a
         href="https://www.youtube.com/channel/UCV1xUwfM2v2oBtT3JNvic3w"
-        class="hover:text-selen"
+        class="text-shadow hover:text-selen"
         ><i class="fa-brands fa-youtube" /> Selen Tatsuki【NIJISANJI EN】</a
       >
     </div>
@@ -39,7 +39,7 @@
     </p>
   </div>
   <div class="grow" />
-  <p class="my-4 text-center text-sm">
+  <p class="text-shadow my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
       href="https://twitter.com/daydarion"
       class="hover:text-selen">@daydarion</a
@@ -50,10 +50,3 @@
     >
   </p>
 </main>
-
-<style>
-  a,
-  p {
-    text-shadow: 0 0 4px black;
-  }
-</style>

@@ -58,7 +58,7 @@
     <li>Here</li>
   </ul>
   <div class="grow" />
-  <p class="my-4 text-center text-sm">
+  <p class="text-shadow my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
       href="https://twitter.com/daiishori"
       class="hover:text-selen">@daiishori</a
@@ -70,10 +70,6 @@
 </main>
 
 <style>
-  a,
-  p {
-    text-shadow: 0 0 4px black;
-  }
   @counter-style emotes {
     system: fixed;
     symbols: 🤘 😎 🥇;

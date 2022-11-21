@@ -173,7 +173,7 @@
     </div>
   </div>
   <div class="grow" />
-  <p class="my-4 text-center text-sm">
+  <p class="text-shadow my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
       href="https://twitter.com/szainx"
       class="hover:text-selen">@szainx</a
@@ -184,10 +184,3 @@
     > <em>(NSFW)</em>
   </p>
 </main>
-
-<style>
-  a,
-  p {
-    text-shadow: 0 0 4px black;
-  }
-</style>

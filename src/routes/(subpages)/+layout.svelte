@@ -5,11 +5,5 @@
 <LoadingAnimation />
 <slot />
 <a href="/" class="fixed top-4 left-4"
-  ><i class="fa-solid fa-arrow-left fa-2x text-selen" /></a
+  ><i class="fa-solid fa-arrow-left fa-2x text-shadow text-selen" /></a
 >
-
-<style>
-  i {
-    text-shadow: 0 0 4px black;
-  }
-</style>

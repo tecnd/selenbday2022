@@ -129,20 +129,14 @@
     {/each}
   </div>
   <div class="grow" />
-  <p class="my-4 text-center text-sm">
+  <p class="text-shadow my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
       href="https://twitter.com/RuiBerry3"
-      class="shadow hover:text-selen">@RuiBerry3</a
+      class="hover:text-selen">@RuiBerry3</a
     >
     | (right)
-    <a href="https://twitter.com/daiishori" class="shadow hover:text-selen"
+    <a href="https://twitter.com/daiishori" class="hover:text-selen"
       >@daiishori</a
     >
   </p>
 </main>
-
-<style>
-  .shadow {
-    text-shadow: 0 0 4px black;
-  }
-</style>
