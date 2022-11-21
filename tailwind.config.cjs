@@ -50,7 +50,7 @@ const config = {
         120: "120deg",
       },
       skew: {
-        45: "45deg",
+        30: "30deg",
       },
     },
     container: {

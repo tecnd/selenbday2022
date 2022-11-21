@@ -1,4 +1,5 @@
 <script lang="ts">
+  import SkewBox from "$lib/skewBox.svelte";
   interface Award {
     image: string;
     alt: string;
@@ -60,28 +61,30 @@
       Abou<span class="tracking-normal">t</span>
     </h2>
   </div>
-  <p class="mb-4 max-w-screen-md">
-    A sassy lunar sky dragon aiming straight for your heart. Selen Tatsuki is a
-    top level competitive FPS player with an unforgettable laugh. Selen has a
-    strong competitive spirit and a drive to win. She has a bratty personality
-    and will tease everyone around her, but secretly has a softer side and cares
-    deeply about her friends.
-  </p>
-  <p class="mb-4 max-w-screen-md">
-    Selen is a member of NIJISANJI EN's 2nd wave: Obsydia. She is a dragon racer
-    that loves to win. First person shooters are Selen's games of choice,
-    especially Apex Legends, but she keeps things fresh with games from other
-    genres. Notable non-shooter games Selen has played include retro RTS and
-    platformer games, such as Starcraft: Brood War and the original Mega Man
-    series. Despite her assertive personality, Selen's one weakness is horror,
-    and her fans often revel in the "gap moe" of watching this dragon shriek in
-    fear while playing horror games. This "gap moe" personality also comes up in
-    more tender ways, like when she made an adorable rice bear bento box on
-    stream. Selen's greatest strength as an entertainer is her ability to get
-    along with other people. Selen frequently will collaborate with a variety of
-    different guests, and no matter who she's with, those collaborations are
-    always a treat to watch!
-  </p>
+  <SkewBox>
+    <p class="mb-4">
+      A sassy lunar sky dragon aiming straight for your heart. Selen Tatsuki is
+      a top level competitive FPS player with an unforgettable laugh. Selen has
+      a strong competitive spirit and a drive to win. She has a bratty
+      personality and will tease everyone around her, but secretly has a softer
+      side and cares deeply about her friends.
+    </p>
+    <p>
+      Selen is a member of NIJISANJI EN's 2nd wave: Obsydia. She is a dragon
+      racer that loves to win. First person shooters are Selen's games of
+      choice, especially Apex Legends, but she keeps things fresh with games
+      from other genres. Notable non-shooter games Selen has played include
+      retro RTS and platformer games, such as Starcraft: Brood War and the
+      original Mega Man series. Despite her assertive personality, Selen's one
+      weakness is horror, and her fans often revel in the "gap moe" of watching
+      this dragon shriek in fear while playing horror games. This "gap moe"
+      personality also comes up in more tender ways, like when she made an
+      adorable rice bear bento box on stream. Selen's greatest strength as an
+      entertainer is her ability to get along with other people. Selen
+      frequently will collaborate with a variety of different guests, and no
+      matter who she's with, those collaborations are always a treat to watch!
+    </p>
+  </SkewBox>
   <a
     href="https://virtualyoutuber.fandom.com/wiki/Selen_Tatsuki#2022_2"
     class="mb-6 rounded border-2 px-2 text-lg font-black uppercase hover:bg-white hover:text-selen"
@@ -103,15 +106,17 @@
   <h2 class="mb-4 text-center text-4xl font-black uppercase md:text-6xl">
     Additional Achievements
   </h2>
-  <ul class="list-['🏆'] pl-6 text-lg">
-    <li>Team won NIJISANJI Grand Sport day 2022</li>
-    <li>S-Rank in Splatoon 3</li>
-    <li>First NIJISANJI liver to reach Top 500 in Overwatch 2</li>
-    <li>
-      First Place in the consolation bracket and won $35,000 for Trevor Project
-      charity
-    </li>
-  </ul>
+  <SkewBox>
+    <ul class="list-['🏆'] pl-6 text-lg">
+      <li>Team won NIJISANJI Grand Sport day 2022</li>
+      <li>S-Rank in Splatoon 3</li>
+      <li>First NIJISANJI liver to reach Top 500 in Overwatch 2</li>
+      <li>
+        First Place in the consolation bracket and won $35,000 for Trevor
+        Project charity
+      </li>
+    </ul>
+  </SkewBox>
   <div class="grow" />
   <p class="text-shadow my-4 text-center text-sm">
     Trophy artwork credit: <a

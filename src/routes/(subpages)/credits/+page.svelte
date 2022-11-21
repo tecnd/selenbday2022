@@ -1,3 +1,7 @@
+<script lang="ts">
+  import SkewBox from "$lib/skewBox.svelte";
+</script>
+
 <div
   class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/credits-bg.png')] bg-cover bg-center"
 />
@@ -18,26 +22,24 @@
     A place where dragoons come to hang out. The unofficial Selen Tatsuki fan
     discord!
   </p>
-  <div
-    class="mb-8 w-full border-x-4 border-y-4 bg-black/50 px-4 py-2 md:skew-x-12 md:border-x-6 md:px-10"
-  >
-    <div class="md:-skew-x-12">
-      <p class="mb-4">Come join us at Dragoon Project Squad! Where you can:</p>
-      <ul class="mb-4 list-[emotes] pl-6">
-        <li>Chat and rock on with other Dragoons!</li>
-        <li>Use emotes made by our lovely community!</li>
-        <li>Join community projects focused on Selen!</li>
-      </ul>
-      <p>
-        Here we share legendary moments together such as when we were held
-        hostage until Uto won one more game, or the canyon that formed during
-        the bento stream. Events are also organized by fellow dragoons such as
-        games nights and even full-on tournaments that anyone is invited to
-        participate in. The community here is pretty chill so you definitely
-        will not regret your decision, just be up good not down bad.
-      </p>
-    </div>
-  </div>
+
+  <SkewBox>
+    <p class="mb-4">Come join us at Dragoon Project Squad! Where you can:</p>
+    <ul class="mb-4 list-[emotes] pl-6">
+      <li>Chat and rock on with other Dragoons!</li>
+      <li>Use emotes made by our lovely community!</li>
+      <li>Join community projects focused on Selen!</li>
+    </ul>
+    <p>
+      Here we share legendary moments together such as when we were held hostage
+      until Uto won one more game, or the canyon that formed during the bento
+      stream. Events are also organized by fellow dragoons such as games nights
+      and even full-on tournaments that anyone is invited to participate in. The
+      community here is pretty chill so you definitely will not regret your
+      decision, just be up good not down bad.
+    </p>
+  </SkewBox>
+
   <!-- Discord link -->
   <a href="https://discord.gg/" class="group mb-8 text-3xl">
     <div class="flex flex-row">

@@ -15,7 +15,7 @@
     />
   </button>
   <div
-    class="z-0 my-3 -ml-12 mr-4 flex-grow border-4 bg-black/50 py-3 pr-7 pl-16 md:-ml-20 md:skew-x-12 md:border-6 md:pl-24 lg:-mr-20 lg:ml-4 lg:pl-7 lg:pr-24"
+    class="z-0 my-3 -ml-12 mr-4 flex-grow border-4 bg-black/50 py-3 pr-7 pl-16 md:-ml-20 md:skew-x-12 md:border-x-6 md:pl-24 lg:-mr-20 lg:ml-4 lg:pl-7 lg:pr-24"
   >
     <div class="flex h-full flex-col justify-evenly md:-skew-x-12">
       <p class="mb-1 text-sm">{quote.quote}</p>

@@ -145,11 +145,11 @@
     <!-- Track select -->
     <div class="flex flex-col items-center md:mr-4">
       <div class="my-2 flex justify-center">
-        <div class="skew-x-45 border bg-black/50 p-1" />
-        <div class="mx-1 skew-x-45 border bg-black/50 px-5">
-          <p class="-skew-x-45 text-center">Track Select</p>
+        <div class="skew-x-30 border bg-black/50 p-1" />
+        <div class="mx-1 skew-x-30 border bg-black/50 px-5">
+          <p class="-skew-x-30 text-center">Track Select</p>
         </div>
-        <div class="skew-x-45 border bg-black/50 p-1" />
+        <div class="skew-x-30 border bg-black/50 p-1" />
       </div>
       {#each MusicList as music}
         <label class="mb-1 w-full border-2">
