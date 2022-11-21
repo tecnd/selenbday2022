@@ -161,7 +161,7 @@
             value={music}
           />
           <div
-            class="bg-black/50 px-2 text-center hover:bg-white hover:text-black peer-checked:bg-white peer-checked:text-black"
+            class="cursor-pointer bg-black/50 px-2 text-center hover:bg-white hover:text-black peer-checked:cursor-auto peer-checked:bg-white peer-checked:text-black"
           >
             {#if music.new === true}
               <em>(NEW) </em>
