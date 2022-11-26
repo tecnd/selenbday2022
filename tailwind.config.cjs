@@ -52,6 +52,11 @@ const config = {
       skew: {
         30: "30deg",
       },
+      zIndex: {
+        60: "60",
+        70: "70",
+        80: "80",
+      },
     },
     container: {
       center: true,
