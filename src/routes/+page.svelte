@@ -3,14 +3,11 @@
   import Hex from "$lib/hex.svelte";
   import LoadingAnimation from "$lib/loadingAnimation.svelte";
   import { afterNavigate } from "$app/navigation";
-  let innerWidth: number;
   let playAnimation: boolean;
   afterNavigate(({ from }) => {
     playAnimation = from !== null;
   });
 </script>
-
-<svelte:window bind:innerWidth />
 
 {#if playAnimation}
   <LoadingAnimation />
@@ -66,99 +63,59 @@
   <p class="z-10 my-6">
     A website designed by Selen Tatsuki’s dragoons celebrating her birthday!
   </p>
-  {#if innerWidth < 768}
-    <!--Hex layout for mobile-->
-    <div class="flex flex-col gap-12">
-      <a href="/about">
-        <Hex>
-          <i class="fa-solid fa-trophy fa-2x mb-3" />
-          <p class="uppercase">about</p>
-        </Hex>
-      </a>
-      <a href="/quotes">
-        <Hex>
-          <i class="fa-solid fa-quote-left fa-2x mb-3" />
-          <p class="text-center uppercase">Selen’s Quotes</p>
-        </Hex>
-      </a>
-      <a href="/cakes">
-        <Hex>
-          <i class="fa-solid fa-cake-candles fa-2x mb-3" />
-          <p class="text-center uppercase">Birthday Cakes</p>
-        </Hex>
-      </a>
+  <!--Hex layout-->
+  <div
+    class="mb-12 flex flex-col gap-12 md:mb-0 md:flex-row md:flex-wrap md:justify-center md:gap-0"
+  >
+    <a href="/about">
+      <Hex>
+        <i class="fa-solid fa-trophy fa-2x mb-3" />
+        <p class="text-center uppercase">About</p>
+      </Hex>
+    </a>
+    <a href="/quotes">
+      <Hex>
+        <i class="fa-solid fa-quote-left fa-2x mb-3" />
+        <p class="text-center uppercase">Selen’s Quotes</p>
+      </Hex>
+    </a>
+    <a href="/cakes">
+      <Hex>
+        <i class="fa-solid fa-cake-candles fa-2x mb-3" />
+        <p class="text-center uppercase">Birthday Cakes</p>
+      </Hex>
+    </a>
+    <a href="/dragoons">
       <Hex>
         <i class="fa-solid fa-dragon fa-2x mb-3" />
         <p class="text-center uppercase">Dragoon Generator</p>
       </Hex>
-      <a href="/music">
-        <Hex>
-          <i class="fa-solid fa-music fa-2x mb-3" />
-          <p class="text-center uppercase">Music</p>
-        </Hex>
-      </a>
-      <a href="/socials">
-        <Hex>
-          <i class="fa-brands fa-youtube fa-2x mb-3" />
-          <p class="text-center uppercase">Socials</p>
-        </Hex>
-      </a>
-      <a href="/credits">
-        <Hex>
-          <i class="fa-brands fa-discord fa-2x mb-3" />
-          <p class="text-center uppercase">DPS and Credits</p>
-        </Hex>
-      </a>
-    </div>
-  {:else}
-    <!--Hex layout for desktop-->
-    <div class="flex flex-row flex-wrap justify-center">
-      <a href="/about">
-        <Hex>
-          <i class="fa-solid fa-trophy fa-2x mb-3" />
-          <p class="text-center uppercase">About</p>
-        </Hex>
-      </a>
-      <a href="/quotes">
-        <Hex>
-          <i class="fa-solid fa-quote-left fa-2x mb-3" />
-          <p class="text-center uppercase">Selen’s Quotes</p>
-        </Hex>
-      </a>
-      <a href="/cakes">
-        <Hex>
-          <i class="fa-solid fa-cake-candles fa-2x mb-3" />
-          <p class="text-center uppercase">Birthday Cakes</p>
-        </Hex>
-      </a>
+    </a>
+  </div>
+  <div
+    class="flex flex-col gap-12 md:-mt-[51.94px] md:flex-row md:flex-wrap md:justify-center md:gap-0"
+  >
+    <a href="/music">
       <Hex>
-        <i class="fa-solid fa-dragon fa-2x mb-3" />
-        <p class="text-center uppercase">Dragoon Generator</p>
+        <i class="fa-solid fa-music fa-2x mb-3" />
+        <p class="text-center uppercase">Music</p>
       </Hex>
-    </div>
-    <div class="-mt-[51.94px] flex flex-row flex-wrap justify-center">
-      <a href="/music">
-        <Hex>
-          <i class="fa-solid fa-music fa-2x mb-3" />
-          <p class="text-center uppercase">Music</p>
-        </Hex>
-      </a>
-      <a href="/socials">
-        <Hex>
-          <i class="fa-brands fa-youtube fa-2x mb-3" />
-          <p class="text-center uppercase">Socials</p>
-        </Hex>
-      </a>
-      <a href="/credits">
-        <Hex>
-          <i class="fa-brands fa-discord fa-2x mb-3" />
-          <p class="text-center uppercase">DPS and Credits</p>
-        </Hex>
-      </a>
-    </div>
-  {/if}
+    </a>
+    <a href="/socials">
+      <Hex>
+        <i class="fa-brands fa-youtube fa-2x mb-3" />
+        <p class="text-center uppercase">Socials</p>
+      </Hex>
+    </a>
+    <a href="/credits">
+      <Hex>
+        <i class="fa-brands fa-discord fa-2x mb-3" />
+        <p class="text-center uppercase">DPS and Credits</p>
+      </Hex>
+    </a>
+  </div>
   <div class="grow" />
-  <p class="credits my-4 text-center text-sm">
+  <p class="text-shadow my-4 text-center text-sm">
     Selen Tatsuki artwork credit: (left) <a
       href="https://twitter.com/kamamesigogo123"
       class="hover:text-selen">@kamamesigogo123</a
@@ -169,9 +126,3 @@
     >
   </p>
 </main>
-
-<style>
-  .credits {
-    text-shadow: 0 0 4px black;
-  }
-</style>
