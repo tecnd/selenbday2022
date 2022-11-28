@@ -6,18 +6,24 @@
     | "moustache"
     | "eye"
     | "clothes"
-    | "horns";
+    | "outline"
+    | "shadow"
+    | "horns"
+    | "base";
   export let src: string | number;
   export let layer: LayerType;
 
   const layerLut: Record<LayerType, string> = {
-    frame: "z-80",
-    handItem: "z-70",
-    hat: "z-60",
-    moustache: "z-50",
-    eye: "z-40",
-    clothes: "z-30",
-    horns: "z-20",
+    frame: "z-100",
+    handItem: "z-90",
+    hat: "z-80",
+    moustache: "z-70",
+    eye: "z-60",
+    clothes: "z-50",
+    outline: "z-40",
+    shadow: "z-30",
+    horns: "z-10",
+    base: "z-0",
   };
 </script>
 
