@@ -1,12 +1,12 @@
 <script lang="ts">
   import SkewBox from "$lib/skewBox.svelte";
-  import apex from "./apex.png"
-  import dragon from "./dragon.png"
-  import flyer from "./flyer.png"
-  import master from "./master.png"
-  import mirage from "./mirage.png"
-  import overwatch from "./overwatch.png"
-  import rosemi from "./rosemi.png"
+  import apex from "./apex.png";
+  import dragon from "./dragon.png";
+  import flyer from "./flyer.png";
+  import master from "./master.png";
+  import mirage from "./mirage.png";
+  import overwatch from "./overwatch.png";
+  import rosemi from "./rosemi.png";
   interface Award {
     image: string;
     alt: string;

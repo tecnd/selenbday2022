@@ -43,7 +43,7 @@
       title: "Sweet Embrace",
       artist: Stick,
       url: "https://www.youtube.com/embed/3--mGPd0wCE",
-      new: true
+      new: true,
     },
     {
       title: "Back Home",

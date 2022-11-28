@@ -4,27 +4,27 @@
   import QuoteLeft from "$lib/quoteLeft.svelte";
   import QuoteRight from "$lib/quoteRight.svelte";
 
-  import p1 from "./images/1.png"
-  import p2 from "./images/2.png"
-  import p3 from "./images/3.png"
-  import p4 from "./images/4.png"
-  import p5 from "./images/5.png"
-  import p6 from "./images/6.png"
-  import p7 from "./images/7.png"
-  import p8 from "./images/8.png"
-  import p9 from "./images/9.png"
-  import p10 from "./images/10.png"
+  import p1 from "./images/1.png";
+  import p2 from "./images/2.png";
+  import p3 from "./images/3.png";
+  import p4 from "./images/4.png";
+  import p5 from "./images/5.png";
+  import p6 from "./images/6.png";
+  import p7 from "./images/7.png";
+  import p8 from "./images/8.png";
+  import p9 from "./images/9.png";
+  import p10 from "./images/10.png";
 
-  import kinkshame from "./audio/Selen_kinkshame_free_zone.mp3"
-  import trust from "./audio/Selen_you_guys_trust_vtubers_right.mp3"
+  import kinkshame from "./audio/Selen_kinkshame_free_zone.mp3";
+  import trust from "./audio/Selen_you_guys_trust_vtubers_right.mp3";
   import cry from "./audio/Selen_whats_she_gonna_do_cry.mp3";
   import cute from "./audio/Selen_dragoons_are_cute_too.mp3";
-  import peace from "./audio/Selen_peace_via_murder.mp3"
-  import toxic from "./audio/Selen_little_do_they_know_Im_fucking_toxic.mp3"
-  import shoot from "./audio/Selen_nobody_shoots_my_dragoon_down_but_me.mp3"
-  import daddy from "./audio/Selen_I_give_you_permission_to_call_me_daddy 4sec.mp3"
-  import sanity from "./audio/Selen_thank_you_for_witnessing_my_sanity_decline.mp3"
-  import love from "./audio/Selen_bye_I_love_you_guys.mp3"
+  import peace from "./audio/Selen_peace_via_murder.mp3";
+  import toxic from "./audio/Selen_little_do_they_know_Im_fucking_toxic.mp3";
+  import shoot from "./audio/Selen_nobody_shoots_my_dragoon_down_but_me.mp3";
+  import daddy from "./audio/Selen_I_give_you_permission_to_call_me_daddy 4sec.mp3";
+  import sanity from "./audio/Selen_thank_you_for_witnessing_my_sanity_decline.mp3";
+  import love from "./audio/Selen_bye_I_love_you_guys.mp3";
 
   const quotes: Quote[] = [
     {
@@ -85,8 +85,7 @@
     {
       quote:
         'I give you guys— Chat, I give you guys permission to call me "Daddy". Chat, you can call me "Dad".',
-      audioLink:
-        daddy,
+      audioLink: daddy,
       image: p8,
       artist: "@adomanju",
       artistLink: "https://twitter.com/adomanju",
@@ -94,8 +93,7 @@
     {
       quote:
         "Thank you all, for coming here, to witness this journey. Of the slow decline, of— of SANITY, of Selen Tatsuki *laughs*.",
-      audioLink:
-        sanity,
+      audioLink: sanity,
       image: p9,
       artist: "@fujiwarano_echi",
       artistLink: "https://twitter.com/fujiwarano_echi",
@@ -116,8 +114,8 @@
   });
 
   onDestroy(() => {
-		audio.pause();
-	});
+    audio.pause();
+  });
 
   function playAudio(src: string) {
     audio.src = src;
