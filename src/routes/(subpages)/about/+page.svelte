@@ -1,12 +1,14 @@
 <script lang="ts">
   import SkewBox from "$lib/skewBox.svelte";
-  import apex from "./apex.png";
-  import dragon from "./dragon.png";
-  import flyer from "./flyer.png";
-  import master from "./master.png";
-  import mirage from "./mirage.png";
-  import overwatch from "./overwatch.png";
-  import rosemi from "./rosemi.png";
+
+  import aboutBg from "./about-bg.png?quality=95&webp";
+  import apex from "./apex.png?quality=95&webp";
+  import dragon from "./dragon.png?quality=95&webp";
+  import flyer from "./flyer.png?quality=95&webp";
+  import master from "./master.png?quality=95&webp";
+  import mirage from "./mirage.png?quality=95&webp";
+  import overwatch from "./overwatch.png?quality=95&webp";
+  import rosemi from "./rosemi.png?quality=95&webp";
   interface Award {
     image: string;
     alt: string;
@@ -53,7 +55,8 @@
 </script>
 
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/about-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({aboutBg})"
 />
 <main
   class="container flex min-h-border-screen max-w-screen-lg flex-col items-center justify-center"

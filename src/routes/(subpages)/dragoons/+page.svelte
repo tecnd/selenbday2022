@@ -1,9 +1,9 @@
 <script lang="ts">
   import DragoonLayer from "$lib/dragoonLayer.svelte";
   import SkewBox from "$lib/skewBox.svelte";
-  import linePng from "./line.png";
-  import shadowPng from "./shadow.png";
-  import whiteBase from "./white-base.png";
+  import linePng from "./line.png?quality=95&webp";
+  import shadowPng from "./shadow.png?quality=95&webp";
+  import whiteBase from "./white-base.png?quality=95&webp";
 
   interface Dragoon {
     author: string;

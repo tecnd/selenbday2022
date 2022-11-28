@@ -3,6 +3,9 @@
   import Hex from "$lib/hex.svelte";
   import LoadingAnimation from "$lib/loadingAnimation.svelte";
   import { afterNavigate } from "$app/navigation";
+
+  import homeBg from "./home-bg-artwork.png?quality=95&webp";
+
   let playAnimation: boolean;
   afterNavigate(({ from }) => {
     playAnimation = from !== null;
@@ -41,7 +44,8 @@
 {/if}
 <!--Backgrounds-->
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/home-bg-artwork.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({homeBg})"
 />
 <!--Main Content-->
 <main

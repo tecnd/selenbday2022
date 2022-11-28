@@ -1,15 +1,18 @@
-<script>
+<script lang="ts">
   import "../app.postcss";
   import "@fortawesome/fontawesome-free/css/fontawesome.css";
   import "@fortawesome/fontawesome-free/css/brands.css";
   import "@fortawesome/fontawesome-free/css/solid.css";
+
+  import banner from "./banner.png?quality=95&webp";
 </script>
 
 <div
   class="relative flex min-h-screen flex-col overflow-x-hidden border-t-4 border-t-selen text-white"
 >
   <div
-    class="fixed -z-10 h-screen w-full bg-[url('/banner.png')] bg-cover bg-center"
+    class="fixed -z-10 h-screen w-full bg-cover bg-center"
+    style:background-image="url({banner})"
   />
   <slot />
   <div

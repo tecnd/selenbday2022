@@ -1,8 +1,9 @@
 <script lang="ts">
-  import aefenPic from "./aefen.jpg";
-  import anizanPic from "./anizan.jpg";
-  import stickPic from "./stick.jpg";
-  import tachibanaPic from "./tachibana.jpg";
+  import aefenPic from "./aefen.jpg?quality=95&w=64&webp";
+  import anizanPic from "./anizan.jpg?quality=95&w=64&webp";
+  import stickPic from "./stick.jpg?quality=95&w=64&webp";
+  import tachibanaPic from "./tachibana.jpg?quality=95&w=64&webp";
+  import musicBg from "./music-bg.png?quality=95&webp";
 
   interface Artist {
     name: string;
@@ -105,7 +106,8 @@
 </script>
 
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/music-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({musicBg})"
 />
 <main
   class="container flex min-h-border-screen flex-col items-center justify-center"

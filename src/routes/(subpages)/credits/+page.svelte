@@ -1,9 +1,12 @@
 <script lang="ts">
   import SkewBox from "$lib/skewBox.svelte";
+
+  import creditsBg from "./credits-bg.png?quality=95&webp";
 </script>
 
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/credits-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({creditsBg})"
 />
 <main
   class="container flex min-h-border-screen max-w-screen-md flex-col items-center justify-center"

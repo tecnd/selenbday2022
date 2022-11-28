@@ -1,5 +1,10 @@
+<script lang="ts">
+  import socialsBg from "./socials-bg.png?quality=95&webp";
+</script>
+
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/socials-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({socialsBg})"
 />
 <main
   class="container flex min-h-border-screen flex-col items-center justify-center"

@@ -4,16 +4,18 @@
   import QuoteLeft from "$lib/quoteLeft.svelte";
   import QuoteRight from "$lib/quoteRight.svelte";
 
-  import p1 from "./images/1.png";
-  import p2 from "./images/2.png";
-  import p3 from "./images/3.png";
-  import p4 from "./images/4.png";
-  import p5 from "./images/5.png";
-  import p6 from "./images/6.png";
-  import p7 from "./images/7.png";
-  import p8 from "./images/8.png";
-  import p9 from "./images/9.png";
-  import p10 from "./images/10.png";
+  import quotesBg from "./quotes-bg.png?quality=95&webp";
+
+  import p1 from "./images/1.png?&quality=95&webp";
+  import p2 from "./images/2.png?&quality=95&webp";
+  import p3 from "./images/3.png?&quality=95&webp";
+  import p4 from "./images/4.png?&quality=95&webp";
+  import p5 from "./images/5.png?&quality=95&webp";
+  import p6 from "./images/6.png?&quality=95&webp";
+  import p7 from "./images/7.png?&quality=95&webp";
+  import p8 from "./images/8.png?&quality=95&webp";
+  import p9 from "./images/9.png?&quality=95&webp";
+  import p10 from "./images/10.png?&quality=95&webp";
 
   import kinkshame from "./audio/Selen_kinkshame_free_zone.mp3";
   import trust from "./audio/Selen_you_guys_trust_vtubers_right.mp3";
@@ -126,7 +128,8 @@
 </script>
 
 <div
-  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-[url('/quotes-bg.png')] bg-cover bg-center"
+  class="pointer-events-none fixed top-1 left-0 -z-10 h-border-screen w-screen bg-cover bg-center"
+  style:background-image="url({quotesBg})"
 />
 <main
   class="container flex min-h-border-screen max-w-screen-xl flex-col items-center justify-center"

@@ -7,3 +7,8 @@ declare namespace App {
   // interface Error {}
   // interface Platform {}
 }
+
+declare module "*webp" {
+  const url: string;
+  export default url;
+}
