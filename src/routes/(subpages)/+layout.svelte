@@ -4,6 +4,6 @@
 
 <LoadingAnimation />
 <slot />
-<a href="/" class="fixed top-4 left-4"
+<a href="/" class="fixed top-4 left-4" aria-label="Back"
   ><i class="fa-solid fa-arrow-left fa-2x text-shadow text-selen" /></a
 >

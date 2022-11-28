@@ -1,5 +1,12 @@
 <script lang="ts">
   import SkewBox from "$lib/skewBox.svelte";
+  import apex from "./apex.png"
+  import dragon from "./dragon.png"
+  import flyer from "./flyer.png"
+  import master from "./master.png"
+  import mirage from "./mirage.png"
+  import overwatch from "./overwatch.png"
+  import rosemi from "./rosemi.png"
   interface Award {
     image: string;
     alt: string;
@@ -8,37 +15,37 @@
 
   const awardList: Award[] = [
     {
-      image: "/awards/dragon.png",
+      image: dragon,
       alt: "Dragon Trophy",
       text: "Number 1 Dragon Racer",
     },
     {
-      image: "/awards/apex.png",
+      image: apex,
       alt: "Apex Trophy",
       text: "Repeat Top 500 Apex Predator",
     },
     {
-      image: "/awards/overwatch.png",
+      image: overwatch,
       alt: "Overwatch Trophy",
       text: "Repeat Top 500 Overwatch Player",
     },
     {
-      image: "/awards/master.png",
+      image: master,
       alt: "Master Trophy",
       text: "Repeat Master Player",
     },
     {
-      image: "/awards/mirage.png",
+      image: mirage,
       alt: "Mirage Trophy",
       text: "Leaderboard Mirage Player",
     },
     {
-      image: "/awards/flyer.png",
+      image: flyer,
       alt: "Flyer Trophy",
       text: "C+ Flying License",
     },
     {
-      image: "/awards/rosemi.png",
+      image: rosemi,
       alt: "Rosemi Trophy",
       text: "The Great Rosemi-sama Game Show Winner",
     },

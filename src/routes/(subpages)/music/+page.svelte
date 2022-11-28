@@ -1,4 +1,9 @@
 <script lang="ts">
+  import aefenPic from "./aefen.jpg";
+  import anizanPic from "./anizan.jpg";
+  import stickPic from "./stick.jpg";
+  import tachibanaPic from "./tachibana.jpg";
+
   interface Artist {
     name: string;
     image: string;
@@ -14,26 +19,32 @@
   // Artists
   const Tachibana: Artist = {
     name: "Tachibana Music",
-    image: "/artists/tachibana.jpg",
+    image: tachibanaPic,
     link: "https://www.youtube.com/c/TachibanaMusic/",
   };
   const Anizan: Artist = {
     name: "Anizan",
-    image: "/artists/anizan.jpg",
+    image: anizanPic,
     link: "https://twitter.com/AnizanHuman/",
   };
   const Aefen: Artist = {
     name: "Aefen",
-    image: "/artists/aefen.jpg",
+    image: aefenPic,
     link: "https://twitter.com/OfficialAefen/",
   };
   const Stick: Artist = {
     name: "StickTheFigure",
-    image: "/artists/stick.jpg",
+    image: stickPic,
     link: "https://twitter.com/elicoutch/",
   };
 
   const MusicList: Music[] = [
+    {
+      title: "Sweet Embrace",
+      artist: Stick,
+      url: "https://www.youtube.com/embed/3--mGPd0wCE",
+      new: true
+    },
     {
       title: "Back Home",
       artist: Aefen,
