@@ -114,7 +114,9 @@
   });
 
   onDestroy(() => {
-    audio.pause();
+    if (audio) {
+      audio.pause();
+    }
   });
 
   function playAudio(src: string) {
