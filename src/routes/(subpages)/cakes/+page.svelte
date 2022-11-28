@@ -1,7 +1,8 @@
 <main class="container flex h-border-screen flex-col justify-center">
-  <img
-    class="max-h-full object-scale-down py-2"
-    src="https://via.placeholder.com/1920x1080.gif"
-    alt="Cake animation"
+  <iframe
+    class="aspect-video w-full rounded-md border-2 border-white"
+    src="https://www.youtube.com/embed/TjfmzkLBSFg?playlist=TjfmzkLBSFg&loop=1"
+    title="YouTube video player"
+    allow="autoplay; picture-in-picture fullscreen"
   />
 </main>
