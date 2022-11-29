@@ -41,6 +41,12 @@
 
   const MusicList: Music[] = [
     {
+      title: "Blissful nights (LoFi)",
+      artist: Aefen,
+      url: "https://www.youtube.com/embed/A8h55Jsn92g",
+      new: true,
+    },
+    {
       title: "Sweet Embrace",
       artist: Stick,
       url: "https://www.youtube.com/embed/3--mGPd0wCE",

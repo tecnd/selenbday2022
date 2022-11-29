@@ -126,6 +126,16 @@
     <li class="flex">Aefen<span class="w-4 flex-grow" />Voice Mixing</li>
 
     <li class="text-center text-2xl font-black uppercase">Music Board</li>
+    <li class="text-center text-xl font-black uppercase">"Blissful nights (LoFi)"</li>
+    <li class="flex">
+      Aefen Music<span class="w-4 flex-grow" />Lead / Producer
+    </li>
+    <li class="flex">
+      StickTheFigure<span class="w-4 flex-grow" />Original
+    </li>
+    <li class="flex">
+      127_sd_<span class="w-4 flex-grow" />Thumbnail Artwork
+    </li>
     <li class="text-center text-xl font-black uppercase">"Sweet Embrace"</li>
     <li class="flex">
       StickTheFigure<span class="w-4 flex-grow" />Lead / Producer
