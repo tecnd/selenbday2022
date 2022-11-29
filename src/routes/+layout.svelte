@@ -5,6 +5,7 @@
   import "@fortawesome/fontawesome-free/css/solid.css";
 
   import banner from "./banner.png?quality=95&webp";
+  import obsydia from "./obsydia.webp?quality=95&w=128&webp";
 </script>
 
 <div
@@ -16,6 +17,6 @@
   />
   <slot />
   <div
-    class="pointer-events-none fixed bottom-1 right-1 aspect-square w-20 bg-[url('/obsydia.webp')] bg-contain md:w-32"
+    class="pointer-events-none fixed bottom-1 right-1 aspect-square w-20 bg-contain md:w-32" style:background-image="url({obsydia})"
   />
 </div>

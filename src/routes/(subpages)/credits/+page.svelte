@@ -2,7 +2,7 @@
   import SkewBox from "$lib/skewBox.svelte";
 
   import creditsBg from "./credits-bg.png?quality=95&webp";
-  import dpsIcon from "./dps-icon.png?quality=95&webp";
+  import dpsIcon from "./dps-icon.png?quality=95&w=64&webp";
 </script>
 
 <div
