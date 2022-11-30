@@ -34,7 +34,7 @@
     </div>
     <iframe
       class="aspect-video w-full rounded-md border-2 border-white"
-      src="https://www.youtube.com/embed/elnFh8VpeKQ"
+      src="https://www.youtube.com/embed/Z54lyOYjtJw"
       title="YouTube video player"
       allow="autoplay; picture-in-picture fullscreen"
     />
