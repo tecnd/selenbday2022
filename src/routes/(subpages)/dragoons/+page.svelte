@@ -50,12 +50,14 @@
     </p>
     <a
       href="https://dragoon.selen2022.com"
-      class="mb-2 w-max rounded border-2 px-2 py-1 text-3xl font-black uppercase hover:bg-white hover:text-selen"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="mb-2 w-max rounded border-2 border-selen bg-selen/10 px-2 py-1 text-3xl font-black uppercase text-selen hover:border-white hover:bg-white"
       >Create Now</a
     >
   </SkewBox>
 
-  <h2 class="mb-4 text-center text-4xl font-black uppercase md:text-6xl">
+  <h2 class="mb-4 text-center text-3xl font-black uppercase md:text-5xl">
     Dragoon Messages
   </h2>
   <div class="grid w-full grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3">
@@ -136,7 +138,7 @@
   </div>
   <a
     href="https://dragoon.selen2022.com/all"
-    class="mb-6 rounded border-2 px-2 py-1 text-3xl font-black uppercase hover:bg-white hover:text-selen"
+    class="mb-6 rounded border-2 border-white px-2 py-1 text-3xl font-black uppercase hover:bg-white hover:text-selen"
     >See More</a
   >
 </main>

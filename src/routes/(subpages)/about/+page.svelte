@@ -100,7 +100,7 @@
     class="mb-6 rounded border-2 px-2 text-lg font-black uppercase hover:bg-white hover:text-selen"
     >Read More</a
   >
-  <h2 class="mb-4 text-4xl font-black uppercase md:text-6xl">Hall of Fame</h2>
+  <h2 class="mb-4 text-3xl font-black uppercase md:text-5xl">Hall of Fame</h2>
   <div class="grid grid-cols-1 lg:grid-cols-2">
     {#each awardList as award, index}
       <div
@@ -113,7 +113,7 @@
       </div>
     {/each}
   </div>
-  <h2 class="mb-4 text-center text-4xl font-black uppercase md:text-6xl">
+  <h2 class="mb-4 text-center text-3xl font-black uppercase md:text-5xl">
     Additional Achievements
   </h2>
   <SkewBox>
