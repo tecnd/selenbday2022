@@ -246,7 +246,9 @@
     <li class="flex">Ac1dReigNZ<span class="w-4 flex-grow" />Organisation</li>
     <li class="flex">worrysmn<span class="w-4 flex-grow" />Organisation</li>
     <li class="flex">
-      Tastelikenyan<span class="w-4 flex-grow" />Animation / Replacement Letters
+      Tastelikenyan<span class="w-4 flex-grow" /><span class="text-right"
+        >Animation / Replacement Letters</span
+      >
     </li>
     <li class="flex">Medi<span class="w-4 flex-grow" />Cake Letter</li>
     <li class="flex">Matahari<span class="w-4 flex-grow" />Cake Letter</li>
