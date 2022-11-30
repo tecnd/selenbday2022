@@ -43,7 +43,7 @@
     {
       title: "Blissful nights (LoFi)",
       artist: Aefen,
-      url: "https://www.youtube.com/embed/A8h55Jsn92g",
+      url: "https://www.youtube.com/embed/YESVHfE2FsU",
       new: true,
     },
     {
