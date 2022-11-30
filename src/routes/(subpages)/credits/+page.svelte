@@ -196,7 +196,9 @@
     <li class="flex">gosher<span class="w-4 flex-grow" />Thumbnail Artwork</li>
     <li class="text-center text-xl font-black uppercase">"Dragoon Jam"</li>
     <li class="flex">
-      Aefen Music<span class="w-4 flex-grow" />Lead Composer / Arranger / Bass
+      Aefen Music<span class="w-4 flex-grow" /><span class="text-right"
+        >Lead Composer / Arranger / Bass</span
+      >
     </li>
     <li class="flex">
       Tachibana Music<span class="w-4 flex-grow" />Producer / Mix
