@@ -24,23 +24,27 @@
   </div>
   <p class="mb-4">
     A place where dragoons come to hang out. The unofficial Selen Tatsuki fan
-    discord!
+    projects discord!
   </p>
 
   <SkewBox>
-    <p class="mb-4">Come join us at Dragoon Project Squad! Where you can:</p>
-    <ul class="mb-4 list-[emotes] pl-6">
-      <li>Chat and rock on with other Dragoons!</li>
-      <li>Use emotes made by our lovely community!</li>
-      <li>Join community projects focused on Selen!</li>
-    </ul>
+    <p class="mb-4">
+      Dragoon Project Squad is an unofficial Selen Tatsuki Community Discord
+      with a primary focus on fan projects (like the one you're viewing right
+      now!) Our mission is to not only support our liver by means of great
+      projects, but also to help out fellow dragoons in getting their skills and
+      hobbies out in the public. Whether you're an artist, a developer, a
+      musician, or even just a fan: we want to give the community an opportunity
+      to develop their skills, create collaborative works, and support their
+      streamer all at the same time!
+    </p>
     <p>
-      Here we share legendary moments together such as when we were held hostage
-      until Uto won one more game, or the canyon that formed during the bento
-      stream. Events are also organized by fellow dragoons such as games nights
-      and even full-on tournaments that anyone is invited to participate in. The
-      community here is pretty chill so you definitely will not regret your
-      decision, just be up good not down bad.
+      While projects are our main focus as a community, we also seek to provide
+      a place for dragoons to interact; be it through gaming with one another or
+      bantering with each other during or outside of streams. We aim to foster a
+      welcoming server that allows fans to build friendships and working
+      relationships within the community. So come along, we're always looking
+      for extra claws to help!
     </p>
   </SkewBox>
 
@@ -126,7 +130,9 @@
     <li class="flex">Aefen<span class="w-4 flex-grow" />Voice Mixing</li>
 
     <li class="text-center text-2xl font-black uppercase">Music Board</li>
-    <li class="text-center text-xl font-black uppercase">"Blissful nights (LoFi)"</li>
+    <li class="text-center text-xl font-black uppercase">
+      "Blissful nights (LoFi)"
+    </li>
     <li class="flex">
       Aefen Music<span class="w-4 flex-grow" />Lead / Producer
     </li>
