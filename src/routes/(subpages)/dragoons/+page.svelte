@@ -138,6 +138,8 @@
   </div>
   <a
     href="https://dragoon.selen2022.com/all"
+    target="_blank"
+    rel="noopener noreferrer"
     class="mb-6 rounded border-2 border-white px-2 py-1 text-3xl font-black uppercase hover:bg-white hover:text-selen"
     >See More</a
   >
