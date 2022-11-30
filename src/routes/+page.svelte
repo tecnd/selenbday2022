@@ -22,16 +22,24 @@
   >
     <iframe
       class="mb-4 aspect-video w-full rounded sm:w-3/4 md:w-2/3 lg:w-4/5"
-      src="https://www.youtube.com/embed/jcAPuo8b5N0"
+      src="https://www.youtube.com/embed/5pnS1zMq3O8"
       title="YouTube video player"
       allow="autoplay; picture-in-picture; fullscreen"
     />
     <div class="flex gap-4">
-      <button class="rounded bg-gray-500 px-2 text-xl hover:bg-selen"
-        >Download Animation</button
+      <a
+        href="https://drive.google.com/file/d/1YL3UES1kyOx9mkYTFw1OsMvallT22cZs/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rounded bg-gray-500 px-2 text-xl hover:bg-selen"
+        >Download Animation</a
       >
-      <button class="mr-10 rounded bg-gray-500 px-2 text-xl hover:bg-selen"
-        >Download Music</button
+      <a
+        href="https://drive.google.com/file/d/1CJH1SzdpPujisdW9SjMj3vCw3OOp2u00/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mr-10 rounded bg-gray-500 px-2 text-xl hover:bg-selen"
+        >Download Music</a
       >
       <button
         class="rounded bg-gray-500 px-2 text-xl hover:bg-selen"
