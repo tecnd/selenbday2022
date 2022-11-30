@@ -17,6 +17,7 @@
   />
   <slot />
   <div
-    class="pointer-events-none fixed bottom-1 right-1 aspect-square w-20 bg-contain md:w-32" style:background-image="url({obsydia})"
+    class="pointer-events-none fixed bottom-1 right-1 aspect-square w-20 bg-contain md:w-32"
+    style:background-image="url({obsydia})"
   />
 </div>
